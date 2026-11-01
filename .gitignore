@@ -1,0 +1,42 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Gradle and build output
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Machine-specific SDK path (contains your Windows user name)
+local.properties
+
+# Signing keys and secrets
+*.jks
+*.keystore
+*.pem
+*.p12
+*.env
+.env*
+keystore.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Logs and files saved by scripts\adb-tools.ps1
+*.log
+logcat*.txt
+screenshot-*.png
+bugreport*.zip
+
+# Emulator data
+*.avd/
+*.hprof
